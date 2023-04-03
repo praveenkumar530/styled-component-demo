@@ -51,9 +51,6 @@ function App() {
     setTheme(isDarkTheme?'light':'dark')
   }
 
-  // setInterval(() => {
-    // toggleTheme()
-  // }, 2000);
 
   return (
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
